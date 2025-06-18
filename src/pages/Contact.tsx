@@ -44,12 +44,12 @@ const Contact = () => {
       content: '+962 79 579 1877',
       link: null
     },
-    {
-      icon: <Clock className="h-6 w-6" />,
-      title: 'أوقات الرد',
-      content: 'الأحد - الخميس: 8:00 ص - 5:00 م',
-      link: null
-    }
+    // {
+    //   icon: <Clock className="h-6 w-6" />,
+    //   title: 'أوقات الرد',
+    //   content: 'الأحد - الخميس: 8:00 ص - 5:00 م',
+    //   link: null
+    // }
   ];
 
   const socialLinks = [
