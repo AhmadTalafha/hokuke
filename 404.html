@@ -1,3 +1,5 @@
 <script>
-  window.location.replace("/hokuke/");
+  const path = window.location.pathname;
+  const newUrl = "/hokuke" + path.replace(/^\/hokuke/, '');
+  window.location.replace(newUrl);
 </script>
