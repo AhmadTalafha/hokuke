@@ -2,7 +2,7 @@
   
   "name": "hokuke-legal-website",
   
-  "homepage": "https://ahmadtalafha.github.io/hokuke",
+  "homepage": "https://ahmadtalafha.github.io/hokuke/",
   
   "private": true,
   
@@ -28,7 +28,7 @@
   "predeploy": "npm run build",
   
     
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d dist"
   
   },
   
